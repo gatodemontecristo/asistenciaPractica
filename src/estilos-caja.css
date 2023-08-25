@@ -1,0 +1,51 @@
+body{
+background-color:rgb(235, 235, 235) !important;
+}
+img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+div.contenido{
+   display: flex;
+   flex-direction: row;
+   color: grey;
+}
+.contenido p{
+    padding-right:10px ;
+}
+div.contenido2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    min-width: 250px;
+}
+div.principal{
+    display: flex;
+    width: min-content;
+    flex-direction: row;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 15px 15px 15px 15px !important;
+    box-shadow: -5px 4px 8px 3px rgba(0,0,0,0.27);
+}
+button{
+    width: 80px;
+    font-size: 25px !important;
+    font-weight: 500 !important;
+    border-radius: 0px 15px 15px 0px !important;
+}
+p{
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+#nombre{
+    margin-bottom: 10px;
+}
